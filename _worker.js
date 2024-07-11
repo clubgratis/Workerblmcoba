@@ -5,7 +5,7 @@ import { connect } from 'cloudflare:sockets';
 // [Windows] Press "Win + R", input cmd and run:  Powershell -NoExit -Command "[guid]::NewGuid()"
 let userID = '00dc6dd8-885d-42f6-9c17-2e88bab84360';
 
-//
+//how to Find พร็อกซีไอพีs :
 const พร็อกซีไอพีs = [''];
 
 // if you want to use ipv6 or single พร็อกซีไอพี, please add comment at this line and remove comment at the next line
@@ -711,7 +711,7 @@ function getวเลสConfig(userIDs, hostName) {
 	const output = userIDArray.map((userID) => {
 		const วเลสMain = atob(pt) + '://' + userID + atob(at) + hostName + commonUrlPart;
 		const วเลสSec = atob(pt) + '://' + userID + atob(at) + hostName + commonUrlPart1;
-		return `<h2> VLESS CLUB GRATIS </h2>${hashSeparator}\n VLESS TLS
+		return `<h2>VLESS CLUB GRATIS </h2>${hashSeparator}\n VLESS TLS
 ▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭
 ${วเลสMain}
 <button onclick='copyToClipboard("${วเลสMain}")'><i class="fa fa-clipboard"></i> Copy Tls </button>
@@ -727,7 +727,7 @@ ${วเลสSec}
 	const clash_link = `https://api.v1.mk/sub?target=clash&url=${encodeURIComponent(sublink)}&insert=false&emoji=true&list=false&tfo=false&scv=true&fdn=false&sort=false&new_name=true`;
 	// Prepare header string
 	const header = `
-<p align='center'><img width="250" height="250" src="https://img.icons8.com/ios-filled/250/logan-paul-maverick.png" alt="logan-paul-maverick"/>
+<p align='center'><img width="100" height="100" src="https://img.icons8.com/?size=100&id=HTeWFuVmjmpj&format=png&color=#ffffff"/>
 <b style='font-size: 15px;'>SELAMAT DATANG DI CLUB GRATIS</b>
 
 <a href='https://t.me/club_gratis' target='_blank'>Grup</a></p>`;
@@ -735,7 +735,7 @@ ${วเลสSec}
 	// HTML Head with CSS and FontAwesome library
 	const htmlHead = `
   <head>
-	<title>EDtunnel: วเลส configuration</title>
+	<title>VLESS</title>
 	<meta name='description' content='This is a tool for generating วเลส protocol configurations. Give us a star on GitHub https://github.com/NiREvil/Emotional-Damage if you found it useful!'>
 	<meta name='keywords' content='EDtunnel, cloudflare pages, cloudflare woker, severless'>
 	<meta name='viewport' content='width=device-width, initial-scale=1'>
@@ -749,7 +749,7 @@ ${วเลสSec}
 	<meta name='twitter:title' content='EDtunnel - วเลส configuration and subscribe output' />
 	<meta name='twitter:description' content='Use cloudflare pages and worker severless to implement วเลส protocol' />
 	<meta name='twitter:url' content='https://${hostName}/' />
-	<meta name='twitter:image' content='https://img.icons8.com/ios-filled/250/logan-paul-maverick.png' />
+	<meta name='twitter:image' content='https://img.icons8.com/?size=100&id=HTeWFuVmjmpj&format=png&color=#ffffff' />
 	<meta property='og:image:width' content='1500' />
 	<meta property='og:image:height' content='1500' />
 
