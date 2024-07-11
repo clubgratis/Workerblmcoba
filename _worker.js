@@ -714,12 +714,12 @@ function getวเลสConfig(userIDs, hostName) {
 		return `<h2>VLESS CLUB GRATIS </h2>${hashSeparator}\n VLESS TLS
 ▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭
 ${วเลสMain}
-<button onclick='copyToClipboard("${วเลสMain}")'><i class="fa fa-clipboard"></i> Copy Tls </button>
+<button onclick='copyToClipboard("${วเลสMain}")'><i class="fa-solid fa-copy">‌</i> Copy Tls </button>
 ▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭
 VLESS NTLS
 ▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭
 ${วเลสSec}
-<button onclick='copyToClipboard("${วเลสSec}")'><i class="fa fa-clipboard"></i> Copy Ntls </button>
+<button onclick='copyToClipboard("${วเลสSec}")'><i class="fa-solid fa-copy">‌</i></i> Copy Ntls </button>
 ▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭`;
 	}).join('\n');
 	const sublink = `https://${hostName}/sub/${userIDArray[0]}?format=clash`
@@ -727,16 +727,16 @@ ${วเลสSec}
 	const clash_link = `https://api.v1.mk/sub?target=clash&url=${encodeURIComponent(sublink)}&insert=false&emoji=true&list=false&tfo=false&scv=true&fdn=false&sort=false&new_name=true`;
 	// Prepare header string
 	const header = `
-<p align='center'><img width="100" height="100" src="https://img.icons8.com/?size=100&id=HTeWFuVmjmpj&format=png&color=#ffffff"/>
+<p align='center'><img width="100" height="100" src="https://img.icons8.com/?size=100&id=HTeWFuVmjmpj&format=png&color=000000"/>
 <b style='font-size: 15px;'>SELAMAT DATANG DI CLUB GRATIS</b>
 
-<a href='https://t.me/club_gratis' target='_blank'>Grup</a></p>`;
+<a href='https://t.me/club_gratis' target='_blank'><i class="fa-solid fa-house"></i>Back Home</a></p>`;
 
 	// HTML Head with CSS and FontAwesome library
 	const htmlHead = `
   <head>
 	<title>VLESS</title>
-	<meta name='description' content='This is a tool for generating วเลส protocol configurations. Give us a star on GitHub https://github.com/NiREvil/Emotional-Damage if you found it useful!'>
+	<meta name='description' content='This is a tool for generating วเลส protocol configurations. Give us a star on GitHub https://github.com/clubgratis/EDTUNNEL if you found it useful!'>
 	<meta name='keywords' content='EDtunnel, cloudflare pages, cloudflare woker, severless'>
 	<meta name='viewport' content='width=device-width, initial-scale=1'>
 	<meta property='og:site_name' content='EDtunnel: วเลส configuration' />
@@ -749,7 +749,7 @@ ${วเลสSec}
 	<meta name='twitter:title' content='EDtunnel - วเลส configuration and subscribe output' />
 	<meta name='twitter:description' content='Use cloudflare pages and worker severless to implement วเลส protocol' />
 	<meta name='twitter:url' content='https://${hostName}/' />
-	<meta name='twitter:image' content='https://img.icons8.com/?size=100&id=HTeWFuVmjmpj&format=png&color=#ffffff' />
+	<meta name='twitter:image' content='https://img.icons8.com/?size=100&id=HTeWFuVmjmpj&format=png&color=000000' />
 	<meta property='og:image:width' content='1500' />
 	<meta property='og:image:height' content='1500' />
 
@@ -774,7 +774,7 @@ ${วเลสSec}
 	  white-space: pre-wrap;
 	  word-wrap: break-word;
 	  background-color: #fff;
-	  border: 2px solid #ddd;
+	  border: 2px solid red;
 	  padding: 15px;
 	  margin: 10px 0;
 	}
