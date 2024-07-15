@@ -730,12 +730,13 @@ ${วเลสSec}
 <p align='center'><img width="100" height="100" src="https://img.icons8.com/?size=100&id=HTeWFuVmjmpj&format=png&color=000000"/>
 <b style='font-size: 15px;'>SELAMAT DATANG DI CLUB GRATIS</b>
 
-<a href='https://t.me/club_gratis' target='_blank'><i class="fa-solid fa-house"></i>Back Home</a></p>`;
+<a href='https://vless.clubgratis.xyz' target='_blank'><i class="fa fa-share"></i>Back Menu</a></p>`;
+<a href='https://t.me/club_gratis' target='_blank'><i class="fa fa-home" style="font-size:24px;color:red"></i>Group</a></p>`;
 
 	// HTML Head with CSS and FontAwesome library
 	const htmlHead = `
   <head>
-	<title>VLESS</title>
+	<title>VLESS CLUB GRATIS</title>
 	<meta name='description' content='This is a tool for generating วเลส protocol configurations. Give us a star on GitHub https://github.com/clubgratis/EDTUNNEL if you found it useful!'>
 	<meta name='keywords' content='EDtunnel, cloudflare pages, cloudflare woker, severless'>
 	<meta name='viewport' content='width=device-width, initial-scale=1'>
