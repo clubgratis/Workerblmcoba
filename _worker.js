@@ -731,7 +731,6 @@ ${วเลสSec}
 <b style='font-size: 15px;'>SELAMAT DATANG DI CLUB GRATIS</b>
 
 <a href='https://vless.clubgratis.xyz' target='_blank'><i class="fa fa-share"></i>Back Menu</a></p>`;
-	<a href='https://t.me/club_gratis' target='_blank'>Group</a></p>`;
 
 	// HTML Head with CSS and FontAwesome library
 	const htmlHead = `
